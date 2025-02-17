@@ -164,6 +164,15 @@ void lcdString(char *stringLCD)
 	}
 }	//	eo lcdString::
 
+
+/*>>> lcdString: -----------------------------------------------------------
+Author:		Aswin Sreeraj
+Date:		02/17/2025
+Modified:	None
+Desc:		Scan the keypad for inputs
+Input: 		None
+Returns:	char, return the character according to button
+ ----------------------------------------------------------------------------*/
 char keypadScanner()
 {
     R1 = 0; R2 = 0; R3 = 0; R4 = 0;  // Reset all rows
